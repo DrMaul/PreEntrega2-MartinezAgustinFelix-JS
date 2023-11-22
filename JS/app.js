@@ -46,8 +46,6 @@ function menuCompra() {
     console.log(prodBuscado);
     
     if (prodBuscado){
-        alert("ENTRÉ")
-
         let opcion = prompt(`El precio de ${prodBuscado.nombre} es de $${prodBuscado.precio}. A continuación seleccione una opción para continuar:
         \n 1- Agregar al carrito
         \n 2- Volver
